@@ -1,0 +1,118 @@
+!!=============================================================================
+!! RXVT-unicode setting
+!!=============================================================================
+!本地透明设置
+URxvt.transparent: false
+! URxvt.shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt.shading: 180
+
+URxvt.depth:32
+URxvt.inputMethod:ibus
+URxvt.scrollBar:False
+URxvt.scrollBar_right:False
+URxvt.scrollBar_floating: False
+URxvt.scrollstyle:plain
+URxvt.saveLines:10000
+URxvt.menu:/etc/X11/rxvt.menu
+URxvt.preeditType:Root
+URxvt.jumpScroll:false
+URxvt.cursorBlink:true
+!Icon
+URxvt.iconFile:/usr/share/icons/gnome/16x16/apps/terminal.png
+!Set TERM
+URxvt.termName:rxvt-unicode-256color
+#Tab support
+URxvt.perl-ext-common:  default,tabbed,url-picker,clipboard,matcher
+!Shorcut HELP
+!Shift+ ↓ new tab
+!Shift+ ← go to left tab
+!Shift+ → go to right tab
+!Ctrl+ ← move tab to the left
+!Ctrl+ → move tab to the right
+!Ctrl+D: close tab
+URxvt.tabbed.tabbar-fg: 3
+URxvt.tabbed.tabbar-bg: 4
+URxvt.tabbed.tab-fg:    0
+URxvt.tabbed.tab-bg:    4
+URxvt.geometry:100x35
+URxvt*cursorUnderline: true
+URxvt.tabbed.autohide: true
+
+
+
+
+Xft.dpi:96
+Xft.antialias:			true
+Xft.rgba:			rgb
+Xft.autohint:			false
+Xft.hinting:			true
+Xft.hintstyle:			hintfull
+urxvt*font:                 	xft:Input Mono:Bold:size=10
+urxvt*imFont:               	xft:Input Mono:Bold:size=10
+urxvt*boldFont:             	xft:Input Mono:Bold:size=10
+urxvt*italicFont:           	xft:Input Mono:Bold:size=10
+urxvt*boldItalicFont:       	xft:Input Mono:Bold:size=10
+urxvt*letterSpace:	-1
+
+# clickable Url and copy paste keys
+
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+URxvt.iso14755: False
+
+URxvt.url-launcher: /usr/bin/firefox
+
+URxvt.matcher.button: 1
+
+
+Xft.lcdfilter:  lcddefault
+
+
+
+URxvt*dynamicColors:    on
+URxvt*highlightSelection: true
+URxvt*colorMode:    on
+
+
+
+
+
+urxvt*borderColor:		#33ccff
+
+! special
+*.foreground:   #000000
+*.background:   #f1f5f7
+*.cursorColor:  #000000
+
+! black
+*.color0:       #2b2b2b
+*.color8:       #141617
+
+! red
+*.color1:       #e14d21
+*.color9:       #ad3313
+
+! green
+*.color2:       #2c7732
+*.color10:      #189b1f
+
+! yellow
+*.color3:       #9e0505
+*.color11:      #2fc8ac
+
+! blue
+*.color4:       #03a9f4
+*.color12:      #006d9f
+
+! magenta
+*.color5:       #e91e63
+*.color13:      #6d22a2
+
+! cyan
+*.color6:       #009688
+*.color14:      #26a69a
+
+! white
+*.color7:       #808080
+*.color15:      #71808a
+
